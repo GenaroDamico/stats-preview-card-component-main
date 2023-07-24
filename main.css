@@ -1,0 +1,135 @@
+* { 
+   box-sizing: border-box;
+}
+
+ html, body { 
+   height: 100%;
+   margin: 0;
+}
+
+body {
+
+   background-color: hsl(233, 47%, 7%);
+   font-size: 15px;
+   width: 100%;
+   font-family: 'Inter', sans-serif;
+   color: white;
+
+}
+
+main {
+     height: 100%;    
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     
+}
+
+article {
+
+   
+   display: flex;
+   flex-direction: row;
+   width: 64%;
+   background-color: hsl(244, 38%, 16%);
+   color: white;
+   max-width: 100%;
+   border-radius: 7px;
+   height: 446px;
+   
+}
+
+h1 {
+
+   font-family: 'Inter', sans-serif;
+   font-weight: 700;
+  font-size: 40px;
+  border-left: 10px;
+  border-right: 10px;
+
+}
+
+.ins {
+
+   color: hsl(277, 64%, 61%);
+
+}
+
+.contenido {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.principal {
+
+   font-family: 'Lexend Deca', sans-serif;
+   font-weight: 400;
+   width: 400px;
+   font-size: 15px;
+   text-align: left;
+   color: hsla(0, 0%, 100%, 0.75);
+   line-height: 25px;
+
+}
+
+.columna1 {
+
+   
+   margin-left: 2px;
+   padding: 4rem;
+
+}
+
+.columna2 {
+   text-align: center;
+   max-width: 50%;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+img {
+  
+   object-fit: cover;
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 0 7px 7px 0;
+
+}
+
+.datos {
+
+   display: flex;
+   margin-top: 30px;
+   
+}
+
+.datouno, .datodos {
+
+ margin-right: 80px;
+
+}
+
+.cuantitativo {
+
+   font-family: 'Inter', sans-serif;
+   font-weight: 400;
+   font-weight: bold;
+   font-size: 24px;
+   text-transform: uppercase;
+   margin-bottom: 7px;
+
+}
+
+.dato {
+
+   margin-top: 0px;
+   font-family: 'Lexend Deca', sans-serif;
+   font-weight: 400;
+   text-transform: uppercase;
+   color: hsla(0, 0%, 100%, 0.6);
+
+}
